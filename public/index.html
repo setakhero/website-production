@@ -1,0 +1,75 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    </style>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="app/471d05a2.vendor.css"/>
+    <link rel="stylesheet" href="app/6f3abef4.app.css"/>
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/46e09250.apple-touch-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/c372ffcd.apple-touch-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/83cfd2a4.apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/6a1eb38a.apple-touch-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/c71c0c92.apple-touch-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/8104a6a0.apple-touch-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/f4eea9d9.apple-touch-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/8eed02a5.apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/47d6ae5d.apple-touch-icon-180x180.png">
+      <link rel="icon" type="image/png" href="assets/images/favicons/f28f09ae.favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="assets/images/favicons/22f11786.android-chrome-192x192.png" sizes="192x192">
+      <link rel="icon" type="image/png" href="assets/images/favicons/c172dce5.favicon-96x96.png" sizes="96x96">
+      <link rel="icon" type="image/png" href="assets/images/favicons/defaba55.favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="assets/images/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+  </head>
+  <body ng-app="setakheroWwwApp" ng-controller="loadingCtrl">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+    <state-loading-indicator></state-loading-indicator>
+    <div ng-cloak ui-view="" ng-show="!isStateLoading"></div>
+
+    <div ng-include="'components/footer/footer.html'"></div>
+
+   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60161734-1', 'setakhero.com');
+      //ga('send', 'pageview');
+    </script>
+    <script src="https://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+    <script src="app/63e3e5f3.vendor.js"></script>
+
+        <script src="app/28760301.app.js"></script>
+
+    <script src="https://spi.maps.daum.net/imap/map_js_init/postcode.v2.js"></script>
+
+    <script>
+        Parse.initialize("TYU8synfgNvzfG084z0oYfNthuYPXv7oQZt1ORWC", "NGgLJyniU9tPrexJ0HGV5yD7XjrBn6aGJrvsnZwq");
+    </script>
+
+</body>
+</html>
